@@ -65,20 +65,19 @@ export default function Courses() {
     <>
       <CategorySection />
       {/* Header Section */}
-      <div className="text-center  py-12">
+      <div className="text-center py-12">
         <h1 className="text-4xl font-bold mb-4">Courses</h1>
         <p className="text-lg text-gray-600">Your Unlimited Guide to Learning</p>
       </div>
 
       {/* Courses Grid */}
-      <div className="flex justify-center">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  md:gap-x-6 p-2 md:px-8 w-full max-w-6xl mx-auto">
-        {courses.map((course, index) => (
-          <CourseCard key={index} {...course} />
-        ))}
+      <div className="flex justify-center items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center items-center px-4 max-w-7xl w-full mx-auto">
+          {courses.map((course, index) => (
+            <CourseCard key={index} {...course} />
+          ))}
+        </div>
       </div>
-      </div>
-      
     </>
   );
 }

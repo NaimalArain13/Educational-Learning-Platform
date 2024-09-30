@@ -15,7 +15,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col">
           <div className="flex flex-col sm:flex-col md:flex-row items-center space-y-3 sm:space-y-3 md:space-y-0 md:space-x-3">
-            <input type="email" placeholder="Enter your email" className="p-5 px-9 tracking-widest text-center" />
+            <input type="email" placeholder="Enter your email" className="p-2 px-7 rounded-md border border-gray-500 tracking-widest text-center" />
             <Button className="p-5 text-lg">Subscribe</Button>
           </div>
           <p className="text-sm tracking-tighter mt-3 text-center md:text-left">

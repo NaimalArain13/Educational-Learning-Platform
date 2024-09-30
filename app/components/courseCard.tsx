@@ -11,7 +11,8 @@ export interface CourseCardProp {
 }
 export default function CourseCard(props:CourseCardProp) {
   return (
-    <div className="w-full max-w-md h-auto bg-white shadow-lg rounded-lg p-4 m-4">
+    <div className="flex items-center justify-center">
+      <div className="w-full max-w-md h-auto bg-white shadow-lg rounded-lg  m-4">
       {/* Image Section */}
       <div className="w-full h-[200px] relative mb-3">
         <Image src={props.image} alt={props.courseTitle} layout="fill" objectFit="cover" className="rounded-t-lg" 
@@ -36,5 +37,7 @@ export default function CourseCard(props:CourseCardProp) {
         <p className="text-lg font-semibold text-blue-500">${props.price}</p>
       </div>
     </div>
+    </div>
+    
   );
 }

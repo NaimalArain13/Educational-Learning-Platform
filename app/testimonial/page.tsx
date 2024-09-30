@@ -23,12 +23,12 @@ export default function Testimonials() {
     ];
 
     return (
-        <div className="flex bg-[#F7F7F7] flex-col min-h-screen items-center gap-y-4 py-12">
+        <div className="flex bg-[#F7F7F7] flex-col min-h-screen items-center gap-y-4 py-12 ">
             <h1 className="text-4xl font-bold mb-4 text-center">What Our Students Say</h1>
             <p className="text-gray-600 mb-10 max-w-xl text-center mx-auto">
                 Hear from some of our amazing students who have transformed their careers through our courses.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  px-6 md:px-8 w-full max-w-6xl ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-6 md:px-8  max-w-6xl ">
                 {testimonials.map((testimonial, index) => (
                     <TestimonialCard key={index} {...testimonial} />
                 ))}
