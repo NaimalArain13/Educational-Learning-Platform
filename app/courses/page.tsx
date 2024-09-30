@@ -72,7 +72,7 @@ export default function Courses() {
 
       {/* Courses Grid */}
       <div className="flex justify-center">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mr-6 md:gap-x-6 p-2 md:px-8 w-full max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  md:gap-x-6 p-2 md:px-8 w-full max-w-6xl mx-auto">
         {courses.map((course, index) => (
           <CourseCard key={index} {...course} />
         ))}
