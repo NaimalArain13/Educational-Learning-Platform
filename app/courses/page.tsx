@@ -11,7 +11,7 @@ export default function Courses() {
       rating: "5.0",
       courseTitle: "UI/UX Design 201",
       courseDes:
-        "Lorem ispum doctr fiej sdggei sffjwofe feijrgoid fjisswsf sdgmo fetre",
+        "Learn advanced UI/UX design techniques and principles that will enhance your creative process and lead to better product designs.",
       price: 400,
     },
     {
@@ -20,7 +20,7 @@ export default function Courses() {
       rating: "5.0",
       courseTitle: "Introduction to Python",
       courseDes:
-        "Lorem ispum doctr fiej sdggei sffjwofe feijrgoid fjisswsf sdgmo fetre",
+        "Master the basics of Python programming language, from syntax and data structures to functions and object-oriented programming.",
       price: 400,
     },
     {
@@ -29,7 +29,7 @@ export default function Courses() {
       rating: "5.0",
       courseTitle: "Data Analysis for Beginners",
       courseDes:
-        "Lorem ispum doctr fiej sdggei sffjwofe feijrgoid fjisswsf sdgmo fetre",
+        "Kickstart your career in data analytics by learning the fundamentals of data analysis using real-world datasets.",
       price: 400,
     },
     {
@@ -38,7 +38,7 @@ export default function Courses() {
       rating: "5.0",
       courseTitle: "Art Specialization",
       courseDes:
-        "Lorem ispum doctr fiej sdggei sffjwofe feijrgoid fjisswsf sdgmo fetre",
+        "Develop your art skills with expert guidance and specialized techniques to bring your creative vision to life.",
       price: 400,
     },
     {
@@ -47,7 +47,7 @@ export default function Courses() {
       rating: "5.0",
       courseTitle: "Rule of Law",
       courseDes:
-        "Lorem ispum doctr fiej sdggei sffjwofe feijrgoid fjisswsf sdgmo fetre",
+        "Gain a comprehensive understanding of the rule of law and its application in modern legal systems.",
       price: 400,
     },
     {
@@ -56,10 +56,11 @@ export default function Courses() {
       rating: "5.0",
       courseTitle: "Introduction to Webflow",
       courseDes:
-        "Lorem ispum doctr fiej sdggei sffjwofe feijrgoid fjisswsf sdgmo fetre",
+        "Discover the power of Webflow, a no-code tool for building responsive and dynamic websites without needing to write code.",
       price: 400,
     },
   ];
+
   return (
     <>
       <CategorySection />
@@ -70,8 +71,8 @@ export default function Courses() {
       </div>
 
       {/* Courses Grid */}
-      <div className="flex items-center">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-6  px-8 max-w-6xl mx-auto">
+      <div className="flex justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mr-6 md:gap-x-6 p-2 md:px-8 w-full max-w-6xl mx-auto">
         {courses.map((course, index) => (
           <CourseCard key={index} {...course} />
         ))}
