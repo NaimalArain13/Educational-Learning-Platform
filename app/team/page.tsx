@@ -6,32 +6,32 @@ import React from "react"
 export default function Team(){
     const teamMembers:TeamProp[] = [
         {
-            image:"/profile.jpg",
+            image:"https://i.pinimg.com/236x/71/0a/fa/710afa86ad8720a492adfbde88c100bd.jpg",
             teamMem:"Kanwal Heer",
             memTitle:"Full-stack Developer"
         },
         {
-            image:"/profile.jpg",
+            image:"https://i.pinimg.com/236x/d3/e6/1e/d3e61e5c9d8fc2eac93605064d0b9b4c.jpg",
             teamMem:"Filza Danish",
             memTitle:"Front-end Developer"
         },
         {
-            image:"/profile.jpg",
+            image:"https://i.pinimg.com/474x/ae/fe/39/aefe397b9a3e93737b44a5fd0687c876.jpg",
             teamMem:"Joseph Murryambu",
             memTitle:"Nursing Assistant"
         },
         {
-            image:"/profile.jpg",
+            image:"https://i.pinimg.com/736x/d8/83/4f/d8834f825cdcc8cf3c60b80cf05b1330.jpg",
             teamMem:"Joseph Ngumbau",
             memTitle:"Medical Assistant"
         },
         {
-            image:"/profile.jpg",
+            image:"https://i.pinimg.com/564x/3f/02/ad/3f02ad09800f3d8a54e58288e40b0887.jpg",
             teamMem:"Erick Kipkemboi",
             memTitle:"Web Designer"
         },
         {
-            image:"/profile.jpg",
+            image:"https://i.pinimg.com/564x/fb/65/49/fb6549ee1e6cbdeb6eba6aa1adbb80b7.jpg",
             teamMem:"Stephen Kerubo",
             memTitle:"President of Sales"
         },

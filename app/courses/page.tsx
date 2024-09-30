@@ -6,7 +6,7 @@ import React from "react";
 export default function Courses() {
   const courses: CourseCardProp[] = [
     {
-      image: "/profile.jpg",
+      image: "https://i.pinimg.com/564x/12/c6/a1/12c6a1e8ebf38fe7199ec680594de9a1.jpg",
       category: "Design",
       rating: "5.0",
       courseTitle: "UI/UX Design 201",
@@ -15,7 +15,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/dp.jpg",
+      image: "https://i.pinimg.com/564x/41/5c/a1/415ca1e02bafb6793371cfaa9e38d20a.jpg",
       category: "Programming",
       rating: "5.0",
       courseTitle: "Introduction to Python",
@@ -24,7 +24,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/profile.jpg",
+      image: "https://i.pinimg.com/564x/b4/7b/c1/b47bc1ec1a5bf67d190180500ca38c3c.jpg",
       category: "Business",
       rating: "5.0",
       courseTitle: "Data Analysis for Beginners",
@@ -33,7 +33,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/dp.jpg",
+      image: "https://i.pinimg.com/564x/50/dd/56/50dd56c2c9cb0dd152527cc0a193b792.jpg",
       category: "Art",
       rating: "5.0",
       courseTitle: "Art Specialization",
@@ -42,7 +42,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/profile.jpg",
+      image: "https://i.pinimg.com/736x/35/24/d8/3524d8d9ea9122f80f27545bc5844f52.jpg",
       category: "Law",
       rating: "5.0",
       courseTitle: "Rule of Law",
@@ -51,7 +51,7 @@ export default function Courses() {
       price: 400,
     },
     {
-      image: "/dp.jpg",
+      image: "https://i.pinimg.com/564x/a6/83/b6/a683b65b5d1a1e19c70ede350dec69ec.jpg",
       category: "Tech",
       rating: "5.0",
       courseTitle: "Introduction to Webflow",

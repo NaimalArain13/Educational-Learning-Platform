@@ -23,7 +23,7 @@ export default function HeroSection(){
         {/* Image Section */}
         <div className="flex justify-center md:justify-end">
           <Image 
-            src="/dp.jpg" 
+            src="https://i.pinimg.com/564x/2d/22/ee/2d22eee45dce71ae13209a639e05cc7e.jpg" 
             alt="Learning illustration" 
             width={720} 
             height={700} 
