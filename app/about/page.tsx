@@ -13,7 +13,7 @@ export default function About() {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           {/* Card 1 */}
-          <div className="w-full md:w-1/3 p-4 bg-white shadow-lg rounded-lg flex flex-col max-h-[40rem]">
+          <div className="w-full h-auto md:w-1/3 p-4 bg-white shadow-lg rounded-lg flex flex-col">
             <div className="flex-grow">
               <Image
                 className="w-full h-56 object-cover rounded-lg"
@@ -32,11 +32,11 @@ export default function About() {
           </div>
 
           {/* Card 2 */}
-          <div className="w-full md:w-1/3 p-4 bg-white shadow-lg rounded-lg flex flex-col max-h-[40rem]">
+          <div className="w-full h-auto md:w-1/3 p-4 bg-white shadow-lg rounded-lg flex flex-col">
             <div className="flex-grow">
               <Image
-                className="w-full h-56 object-cover rounded-lg"
-                src="https://i.pinimg.com/564x/37/95/f5/3795f503131cf49ea2f90b9fc15afa4e.jpg"
+                className="w-full h-56 object-cover  rounded-lg"
+                src="/values1.jpg"
                 alt="Values"
                 layout="responsive"
                 width={400}
@@ -49,8 +49,9 @@ export default function About() {
               </p>
             </div>
           </div>
+
           {/* Card 3 */}
-          <div className="w-full md:w-1/3 p-4 bg-white shadow-lg rounded-lg flex flex-col max-h-[40rem]">
+          <div className="w-full h-auto md:w-1/3 p-4 bg-white shadow-lg rounded-lg flex flex-col">
             <div className="flex-grow">
               <Image
                 className="w-full h-56 object-cover rounded-lg"

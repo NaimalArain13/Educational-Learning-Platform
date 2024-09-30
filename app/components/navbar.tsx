@@ -18,7 +18,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-gray-300 p-1 border border-b-black shadow-md shadow-gray-900">
+    <nav className="top-0 z-10 sticky bg-gray-300 p-1 border border-b-black shadow-md shadow-gray-900">
       <div className="mx-5 flex flex-row items-center justify-between">
         {/* Logo or Profile Image */}
         <div className="flex flex-row space-x-3 items-center">
